@@ -15,14 +15,14 @@ export default function MainPage() {
             className="box"
             style={{ backgroundImage: `url("${img}")`, marginTop: "40px" }}
           >
-            <h3>Biz bilan chetelda yuqori maoshda ishlang</h3>
+            <h3 className="title">Biz bilan chetelda yuqori maoshda ishlang</h3>
           </div>
         </Link>
         <div
           className="box"
           style={{ backgroundImage: `url("${imgb}")`, marginTop: "40px" }}
         >
-          <h3>Chetel oliygohlarida biz bilan talab bo'ling</h3>
+          <h3 className="title">Chetel oliygohlarida biz bilan talab bo'ling</h3>
         </div>
       </div>
     </Container>
@@ -57,6 +57,9 @@ const Container = styled.div`
     }
     a{
         text-decoration: none;
+    }
+    .title{
+      color: #fff;
     }
   }
 `;
