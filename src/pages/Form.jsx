@@ -11,7 +11,7 @@ export default function Form() {
         <input type="text" />
         <input type="text" />
         <input type="text" />
-        <button className="button">Yuborish</button>
+        <button className="button" type="reset">Yuborish</button>
       </form>
     </Container>
   );
