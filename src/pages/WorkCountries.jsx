@@ -48,7 +48,7 @@ const Container = styled.div`
     background-color: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
     .box {
-      min-width: 180px;
+      min-width: 150px;
       min-height: 150px;
       background-color: red;
       margin: 2px;
@@ -64,6 +64,7 @@ const Container = styled.div`
     .boxes {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
       width: 95%;
       margin: 30px auto;
     }
