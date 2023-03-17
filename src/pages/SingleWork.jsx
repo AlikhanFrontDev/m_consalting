@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 import image from "../assets/a.jpg";
 
 export default function SingleWork() {
-  const [expanded, setExpanded] = React.useState(false);
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
+
   return (
     <Container>
       <div
