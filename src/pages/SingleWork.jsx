@@ -18,7 +18,7 @@ export default function SingleWork() {
         Ariza qoldirish
       </Link>
       <h3>Lorem, ipsum dolor.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dicta. Nam quibusdam dignissimos dolorem blanditiis. Corporis inventore nesciunt possimus sint nam vel dolorem officiis illum quas vero non esse dicta debitis quod in animi molestiae deleniti et, quia facere sed asperiores. Repellendus, omnis molestias architecto tempore expedita sequi accusamus quibusdam.</p>
+      <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, dicta. Nam quibusdam dignissimos dolorem blanditiis. Corporis inventore nesciunt possimus sint nam vel dolorem officiis illum quas vero non esse dicta debitis quod in animi molestiae deleniti et, quia facere sed asperiores. Repellendus, omnis molestias architecto tempore expedita sequi accusamus quibusdam.</p>
     </Container>
   );
 }
@@ -36,18 +36,10 @@ const Container = styled.div`
     background-color: red;
     background-image: url(${image});
   }
-  .colorAccardion {
-    background-color: var(--tg-theme-bg-color);
+  .text{
+    padding: 5px;
   }
-  .name {
-    color: var(--tg-theme-text-color);
-  }
-  .info {
-    color: var(--tg-theme-hint-color);
-  }
-  .description {
-    color: var(--tg-theme-hint-color);
-  }
+ 
   .button {
     display: flex;
     align-items: center;
