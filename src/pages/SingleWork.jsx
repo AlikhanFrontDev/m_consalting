@@ -13,7 +13,6 @@ export default function SingleWork() {
     <Container>
       <div
         className="image"
-        // style={{ backgroundImage: `url('${image}')` }}
       ></div>
       <Link
         className="button"
