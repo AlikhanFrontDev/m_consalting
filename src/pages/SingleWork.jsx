@@ -24,6 +24,8 @@ export default function SingleWork() {
 }
 
 const Container = styled.div`
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
   .image {
     height: 45vh;
     width: 100vw;
