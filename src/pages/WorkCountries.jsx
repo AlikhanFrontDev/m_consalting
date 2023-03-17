@@ -65,7 +65,8 @@ const Container = styled.div`
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      width: 95%;
+      width: 90%;
+      row-gap: 10px;
       margin: 30px auto;
     }
     .logo {
