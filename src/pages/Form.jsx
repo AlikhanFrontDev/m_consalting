@@ -27,9 +27,10 @@ const Container = styled.div`
       padding: 10px;
       margin: 10px;
       border: none;
-      background-color: var(--tg-theme-bg-color);
+      background-color: var(--tg-theme-secondary-bg-color);
       border-radius: 10px;
       color: var(--tg-theme-text-color);
+      border-color: var(--tg-theme-hint-color);
     }
     .title{
         margin: 15px;
