@@ -44,7 +44,7 @@ export default function WorkCountries() {
 }
 
 const Container = styled.div`
-  @media screen and (max-width: 912px) {
+  @media screen and (max-width: 480px) {
     background-color: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
     .box {
